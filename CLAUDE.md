@@ -19,7 +19,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Name:** Jacob El-Omar
 - **Location:** Aalborg, Denmark (Willing to commute in North Denmark Region, hybrid/remote welcome)
 - **Languages:** Danish (Native), English (Fluent)
-- **CV language:** English
+- **CV language:** Danish
 
 - **Status:** Recent MSc Graduate, volunteering at Dawah Danmark
 - **LinkedIn headline:** "MSc Graduate in Electronic Systems | Embedded Software | Signal Processing | AI/ML"
@@ -99,7 +99,10 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 4. **Verify both documents** (see Verification Checklist below)
 5. Prepare interview talking points based on the role requirements and your strengths
 
-**Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
+**CV & Cover Letter Drafting Rules:**
+- **Project Labeling (CV):** Always label the projects section as `Udvalgte Projekter`. Explicitly tag each project with `(Fritidsprojekt)` for personal/hobby projects (such as "Grow a Fish"), and `(Universitetsprojekt)` or `(Speciale, Universitetsprojekt)` for projects from Aalborg University.
+- **Professional Closing (Cover Letter):** Do not mention personal details like parental leave (`barselsorlov`) in cover letters. Keep the closing paragraph focused on graduation, immediate readiness, local residence, and motivation to join the team.
+- **Tool Mention:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
 ## Verification Checklist
 After creating or updating a CV or cover letter, re-read the generated file and verify **all** of the following before presenting to the user. Report the results as a pass/fail checklist.
