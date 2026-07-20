@@ -4,8 +4,6 @@ framework_version: 1.0.0
 
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -20,9 +18,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** C# / .NET Core, Python, Flutter / Dart, C / C++, Embedded Systems, Signal Processing, Microcontrollers (Cypress PSoC).
+**Moderate match areas:** JavaScript, TypeScript, SQL (PostgreSQL, MySQL, SQLite, Supabase), MATLAB, Simulink, VHDL, WordPress.
+**Weak match areas:** Docker, Kubernetes, Cloud Architecture (GCP/AWS/Azure - basic knowledge), Java (knows C# well, so adjacent), Advanced Networking (CCNA/CCNP details).
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +32,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Embedded Systems, AI/ML (specifically signal enhancement and digital filtering), Biomedical signal processing, WordPress Web development.
+**Moderate:** Cloud and Network engineering, Frontend Development, Software QA/Testing, Control Engineering (Satellite Simulator, Gantry Crane).
+**Entry-level:** Cloud infrastructure administration, Database administration, pure DevOps.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -51,9 +49,9 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
+- Within commute range: PASS (Aalborg and surrounding area, North Denmark Region)
 - Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Requires relocation: FAIL (deal-breaker, family settled in Aalborg)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -67,19 +65,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition from graduate to full-time Embedded Software, Signal Processing, or Software Developer.
+- Build production-grade software in med-tech, aerospace, industrial automation, or communications.
+- Develop expertise in modern software architecture, cloud integrations, and robust firmware designs.
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Writing firmware/software, implementing signal processing algorithms, full-stack app prototyping, solving hardware-software integration problems, collaborating in agile teams.
+- Tasks that drain: Repetitive manual data entry, administrative overhead without engineering value, pure manual regression testing without automation.
+- Non-task factors: leadership style, department culture, company values, degree of autonomy.
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Seeking stable employment to support young family following parental leave.
+- **Flexibility**: Standard full-time working hours with flexibility for parenting needs (e.g. occasional sick days).
+- **Professional development**: Mentorship from senior engineers, learning advanced cloud systems (GCP/AWS), learning CI/CD pipelines.
 
 ### 6. Salary Benchmark (Optional)
 

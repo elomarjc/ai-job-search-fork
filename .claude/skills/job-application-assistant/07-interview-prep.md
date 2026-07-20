@@ -16,26 +16,26 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. AiSteth Smart Stethoscope Signal Enhancement (Signal Processing & AI/ML)
+**S:** Smart stethoscopes used in busy clinical environments suffer from severe acoustic noise, making cardiorespiratory diagnostics difficult.
+**T:** Deployed adaptive filtering solutions to suppress high-noise acoustic artifacts while maintaining diagnostic signal integrity.
+**A:** Programmed and tested LMS, NLMS, and RLS adaptive filters, along with FastICA (Independent Component Analysis) in Python. Evaluated the algorithms using real heart sound data and collaborated with international research partners.
+**R:** Successfully enhanced signal clarity and verified the robustness of diagnostic algorithms against medical compliance guidelines, providing reliable input for clinical classifiers.
+**Use for:** "Tell me about a complex technical problem you solved", "Describe a time you worked on a team with different backgrounds."
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. AAUSAT6 CubeSat Attitude Control (Control Systems & Systems Engineering)
+**S:** The AAUSAT6 CubeSat required robust stabilization in space to ensure communication antennas and sensors remained properly oriented.
+**T:** Design and model the Attitude Determination and Control System (ADCS) for satellite stabilization.
+**A:** Formulated linear-quadratic regulator (LQR) and robust B-dot controllers in MATLAB/Simulink. Applied Kalman filters for state estimation and simulated control loops under orbital disturbance models.
+**R:** Validated attitude stabilization performance through software-in-the-loop simulation, meeting satellite telemetry stability requirements.
+**Use for:** "Describe a control systems challenge you solved", "How do you handle requirements or constraints in engineering projects?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Grow a Fish Mobile Game (Full-stack Development & Self-Starter)
+**S:** Wanted to master cross-platform mobile frameworks and backend integration outside the university curriculum.
+**T:** Design, develop, and deploy a full-stack mobile game with multiplayer features and a persistent database.
+**A:** Built the client application using Flutter and Dart. Designed a RESTful API and set up database schemas in PostgreSQL with Supabase for real-time synchronization of game states and shops.
+**R:** Successfully launched the mobile game, achieving full-stack integration and proving capability to construct independent production-level code.
+**Use for:** "How do you learn a new framework or tool?", "Tell me about a personal project you completed from scratch."
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

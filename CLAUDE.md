@@ -16,67 +16,75 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Jacob El-Omar
+- **Location:** Aalborg, Denmark (Willing to commute in North Denmark Region, hybrid/remote welcome)
+- **Languages:** Danish (Native), English (Fluent)
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Recent MSc Graduate, volunteering at Dawah Danmark
+- **LinkedIn headline:** "MSc Graduate in Electronic Systems | Embedded Software | Signal Processing | AI/ML"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MSc in Engineering (Electronic Systems)** (2023-2025) - **Aalborg University**
+  - Thesis: "Adaptive Noise Cancellation For Electronic Stethoscopes"
+  - Topics: Stochastic systems, machine learning, signal processing, real-time embedded systems, ADCS
+- **BSc in Engineering (Electronic Engineering and IT)** (2020-2023) - **Aalborg University**
+  - Thesis: "Autonomous Control System: Designed for a model gantry crane"
+  - Topics: Control engineering, systems architecture, robotics (MiR200), digital and analog circuit design
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **IT & Web Developer (Volunteer)** (Jan 2026 - Present) - **Dawah Danmark** (Aalborg, Denmark)
+  - Modernized and maintained organizational WordPress platform.
+  - Optimized site architecture and plugin integrations.
+- **AI/ML Engineer (Internship)** (Sep 2024 - Jun 2025) - **Ai Health Highway** (Remote / India)
+  - Engineered noise cancellation filters (LMS, NLMS, RLS) and FastICA for stethoscopes.
+  - Verified signal integrity in compliance with medical-grade diagnostic standards.
+- **Lager- og Logistikmedarbejder** (Jun 2023 - Aug 2024) - **Lyn Express** (Aalborg, Denmark)
+  - Managed inventory receipt, sorting, and delivery logistics under pressure.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** C#, Python, Flutter, Dart, C/C++, Embedded Systems, Signal Processing
+- **Secondary:** JavaScript/TypeScript, SQL (PostgreSQL, MySQL, SQLite, Supabase), MATLAB/Simulink, VHDL, WordPress
+- **Domain:** Microcontrollers (Cypress PSoC), Control Systems, System Architecture, Robotics (MiR200)
+- **Software:** Altium Designer, Onshape, git, GitHub Actions, LaTeX
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **None** - (None)
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- **None** - (None)
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- **RoboCup Tournament (1st Place)** - Aalborg University (2020)
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Methodical Problem Solver** - Employs a structured approach to analyze systems, resolve noise, and optimize code.
+- **Calm Under Pressure** - Maintains focus and organization in demanding environments (parent of two).
+- **Strengths:** Technical curiosity, teamwork (PBL methodology), rapid self-learning.
+- **Growth areas:** Extremely high attention to detail (managing through strict compliance mapping).
+- **Thrives in:** Collaborative, goal-oriented engineering teams.
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Developing software/firmware that interacts directly with physical hardware or sensors.
+- Building state-of-the-art products in medical tech, aerospace, or robotics.
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **Med-tech & Digital Health:** Renewtech ApS, Ai Health Highway
+- **Space & Aerospace:** GomSpace, Space Inventor
+- **IT & Consulting:** Netcompany, Netic, Trifork, itm8
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles requiring permanent relocation away from Aalborg
+- Highly unstructured teams with no documentation or version control
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
