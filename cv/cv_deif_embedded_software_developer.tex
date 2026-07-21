@@ -1,0 +1,144 @@
+%% CV for DEIF A/S - Embedded Software Developer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (MSc) i Elektroniske Systemer fra Aalborg Universitet med speciale i reguleringsteknik, embedded software og reeltidsstyring af energisystemer. Stærke kompetencer i C/C++, algoritmeudvikling i Python, tilstandsestimering (Kalman-filtrering) og mikrocontroller-programmering. Erfaring med at anvende agentiske AI-værktøjer som Claude Code til hurtig testautomatisering, optimering og teknisk dokumentation. Motiveret for at bidrage til DEIF's globale styrings- og mikrogrid-platforme.}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Embedded Software \& Mikrocontrollere}: Embedded C/C++, Cypress PSoC, I2C/SPI/UART protokoller, reeltids-debugging og firmwareudvikling.
+
+\item \textbf{Reguleringsteknik \& Modellering}: LQR \& PID reguleringssløjfer, systemidentifikation, Kalman-filtrering, simulering og modellering i MATLAB \& Simulink.
+
+\item \textbf{Softwarekvalitet \& Metoder}: Python (NumPy, SciPy), Git versionsstyring, enhedstest (unit testing), hardware-in-the-loop (HIL) test samt teknisk dokumentation.
+
+\item \textbf{AI-Værktøjer \& Projektmetodik}: Anvendelse af Claude Code til testautomatisering og refakturering. Erfaring med Problembaseret Læring (PBL) og tværfagligt projektsamarbejde.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+
+\cventry{Sep 2023--Jun 2025}{MSC i Elektroniske Systemer}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Kandidatspeciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Modellering af komplekse stokastiske signaler, reeltids-signalbehandling, adaptiv filtrering og algoritmeudvikling i Python og MATLAB.
+}
+
+\vspace{3pt}
+
+\cventry{Sep 2020--Aug 2023}{BSc i Elektronik og IT}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Specialisering inden for reguleringsteknik, embedded C-programmering (Cypress PSoC), robotsystemer og digitalt kredsløbsdesign.
+}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+
+\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktikant)}{Ai Health Highway}{Aalborg, Danmark / Remote}{}{
+\begin{itemize}
+    \item Udviklede og validerede signalbehandlings- og filtreringsalgoritmer i Python til støjreduktion i reeltid.
+    \item Håndterede og rensede store akustiske datasæt i overensstemmelse med medicinske compliance-standarder.
+    \item Udarbejdede teknisk dokumentation og afrapporterede testresultater til tværfaglige teams.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jan 2026--Nuværende}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Moderniserede, strukturerede og vedligeholdt databaser og webinfrastruktur (WordPress, MySQL).
+    \item Forbedrede dataopsamling og systemarkitektur for at optimere de interne arbejdsgange.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Håndterede registrering, sortering og overvågning af logistikdata under højt arbejdstempo.
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Egenudviklet full-stack mobilspil med vækstdynamikker, multiplayer og in-game butik (Flutter, Dart, SQL, REST API).}
+
+\item{\textbf{AAUSAT6 ADCS Development}: Udvikling af attituderegulatorer til CubeSat-stabilisering ved hjælp af LQR og robust regulering, herunder B-dot-algoritmer (MATLAB, Simulink, LQR, Kalman-filter).}
+
+\item{\textbf{CoM Calibration of 3-DoF Satellite Simulator}: Algoritmeudvikling til estimering af tyngdepunkt (CoM) ved brug af kinematik og Kalman-filtrering (MATLAB, Kalman-filter, Kinematik, OnShape, CNC).}
+
+\item{\textbf{Robot Collision-Avoidance}: Prædiktivt navigationssystem til MiR200-platforme ved brug af UWB og regression (UWB, Kalman-filter, Regression, MiR200).}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (Modersmål), Engelsk (Flydende i skrift og tale).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{Referencer}
+\vspace{1pt}
+\begin{itemize}
+\item Kan oplyses efter anmodning.
+\end{itemize}
+
+\end{document}

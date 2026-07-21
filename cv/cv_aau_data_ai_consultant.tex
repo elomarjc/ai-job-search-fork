@@ -1,0 +1,144 @@
+%% CV for Aalborg Universitet - Data- og AI-konsulent (Forskningsservice)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Denmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE
+% ============================================================
+
+\vspace{6pt}
+\small{Civilingeniør (MSc) i Elektroniske Systemer fra Aalborg Universitet med stærk ekspertise inden for dataanalyse, database-infrastruktur og praktisk anvendelse af AI-teknologier. Erfaring med at strukturere spredte datakilder, bygge databaser (SQL, PostgreSQL, Supabase) og afprøve AI-modeller i udviklingsprojekter. Kombinationen af en analytisk profil, dyb indsigt i AAU's organisation og stærke samarbejdsevner gør mig klar til at understøtte Forskningsservices data- og AI-transformation.}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Data Management \& Databaser}: Datamodellering og -strukturering, databaseintegration (SQL, PostgreSQL, MySQL, Supabase, SQLite), datarensning og ETL-processer.
+
+\item \textbf{AI-Værktøjer \& Maskinlæring}: Praktisk erfaring med implementering af AI-algoritmer i Python, prompt engineering, anvendelse af agentiske AI-værktøjer som Claude Code til automatisering, samt data-visualisering (Matplotlib, Pandas).
+
+\item \textbf{Systemudvikling \& Web}: Backend-udvikling, REST-API-integration, versionsstyring (Git), automatisering via GitHub Actions, samt styring af WordPress platforme.
+
+\item \textbf{Konsulent \& Formidling}: Formidling af komplekse tekniske problemstillinger, tværfagligt samarbejde (PBL-metodik), procesoptimering og udarbejdelse af teknisk dokumentation og beslutningsgrundlag.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+
+\cventry{Sep 2023--Jun 2025}{MSC i Elektroniske Systemer}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Kandidatspeciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Modellering af komplekse stokastiske signaler, statistisk dataanalyse, datarensning samt algoritmeudvikling og -afprøvning i Python og MATLAB.
+}
+
+\vspace{3pt}
+
+\cventry{Sep 2020--Aug 2023}{BSc i Elektronik og IT}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Specialisering inden for systemarkitektur, databaseintegrationer, digitalt design og anvendt data-analyse. Projekter omfattede bl.a. reeltidssystemer, robotnavigationsdata og sensorstyring.
+}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+
+\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktikant)}{Ai Health Highway}{Aalborg, Danmark / Remote}{}{
+\begin{itemize}
+    \item Udviklede, optimerede og testede signalbehandlings- og dataanalysealgoritmer i Python.
+    \item Håndterede og strukturerede store medicinske datasæt, rensede måledata og evaluerede algoritmepræstationer i forhold til medicinske standarder.
+    \item Udarbejdede teknisk dokumentation og afrapportering af testresultater til brug for tværfaglige, internationale teams.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jan 2026--Nuværende}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Moderniserede, strukturerede og vedligeholdt databaser og webinfrastruktur (WordPress, MySQL) for at sikre høj oppetid og systemintegritet.
+    \item Forbedrede dataoverførsel og systemarkitektur for at optimere interne arbejdsgange og dataopsamling.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Håndterede registrering, katalogisering og overvågning af tidsfølsomme logistikdata under højt arbejdstempo.
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Egenudviklet full-stack mobilspil med vækstdynamikker, multiplayer og in-game butik (Flutter, Dart, SQL, REST API).}
+
+\item{\textbf{AAUSAT6 ADCS Development}: Udvikling af attituderegulatorer til CubeSat-stabilisering ved hjælp af LQR og robust regulering, herunder B-dot-algoritmer (MATLAB, Simulink, LQR, Kalman-filter).}
+
+\item{\textbf{CoM Calibration of 3-DoF Satellite Simulator}: Algoritmeudvikling til estimering af tyngdepunkt (CoM) ved brug af kinematik og Kalman-filtrering (MATLAB, Kalman-filter, Kinematik, OnShape, CNC).}
+
+\item{\textbf{Robot Collision-Avoidance}: Prædiktivt navigationssystem til MiR200-platforme ved brug af UWB og regression (UWB, Kalman-filter, Regression, MiR200).}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (Modersmål), Engelsk (Flydende i skrift og tale).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{Referencer}
+\vspace{1pt}
+\begin{itemize}
+\item Kan oplyses efter anmodning.
+\end{itemize}
+
+\end{document}

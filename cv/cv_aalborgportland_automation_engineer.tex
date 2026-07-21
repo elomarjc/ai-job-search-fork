@@ -1,0 +1,164 @@
+%% CV for Aalborg Portland - Group Electrical \& Automation Engineer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med speciale i reguleringsteknik, modellering og industriel automation. Erfaren i regulator-design (LQR, PID), systemidentifikation og sensorintegration samt praktisk fremstilling (CNC og printudlægning). En analytisk og samarbejdsorienteret ingeniør trænet i problembaseret læring (PBL), klar til at understøtte jeres el- og automationsprojekter i gruppen.}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Reguleringsteknik \& Modellering}: Design af reguleringssløjfer, LQR, systemidentifikation, modellering af fysiske systemer i MATLAB og Simulink.
+
+\item \textbf{Automation \& Industriel IT}: Kendskab til PLC-arkitekturer, ladder og struktureret tekst programmering, samt kommunikationsprotokoller (såsom OPC-UA).
+
+\item \textbf{Elektronik \& Hardware}: Printudlægning (Altium Designer), sensorintegration (I2C, SPI, analoge sensorer), kalibrering samt praktisk mekanisk montage (CNC).
+
+\item \textbf{Signalbehandling \& IoT}: Python-dataanalyse, adaptive støjfiltreringsalgoritmer (LMS, RLS) samt kendskab til trådløse teknologier (UWB).
+
+\item \textbf{Projektstyring \& Kommunikation}: Erfaren med agilt tværfagligt samarbejde og systematisk fejlsøgning på komplekse el-tekniske anlæg.
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og testede algoritmer i Python til realtids-signalbehandling i smarte stetoskoper.
+    \item Kalibrerede støjreduktionsmodeller og validerede signalintegriteten mod systemkrav.
+    \item Samarbejdede tæt med hardware- og softwareudviklere om integration af sensordata.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Ansvarlig for serverdrift, databaseadministration og integrationer af webapplikationer.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Styrede sortering og logistik under højt tidspres i et fysisk krævende lager- og logistikmiljø.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Denmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Støjfiltrering og realtids-signalbehandling på indlejrede systemer.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik og automation. Afsluttede projekter omfattede:
+\begin{itemize}
+    \item \textbf{Bachelorprojekt}: Modelopbygning og regulering af en traverskran (Gantry Crane).
+    \item \textbf{5. semester}: Kollisionsforebyggende navigationssystem til mobile robotter (MiR200) baseret på UWB og regressionsalgoritmer.
+    \item \textbf{4. semester}: Indlejret faldsikringssystem på Cypress PSoC i C.
+\end{itemize}
+}}
+
+\end{itemize}
+
+% ============================================================
+%     UDVALGTE PROJEKTER
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Regulering af Traverskran (Bachelorprojekt, Universitetsprojekt)}: Udviklede matematisk model og reguleringssløjfer (PID/LQR) for automatiseret positionering og svingningsdæmpning af en fysisk modeltraverskran (Gantry Crane) med sensorfeedback.}
+
+\item{\textbf{AAUSAT6 CubeSat ADCS Design (Universitetsprojekt)}: Udviklede simulationsmodeller og attitude-regulatorer (LQR, robuste B-dot algoritmer) til CubeSat-satellitstabilisering i MATLAB/Simulink.}
+
+\item{\textbf{Center of Mass Kalibrering (Universitetsprojekt, 3-DoF Simulator)}: Udviklede estimationsalgoritmer til Center of Mass ved brug af kinematik og Kalman-filtrering. Stod for PCB-layout i Altium Designer og mekanisk CNC-fræsning.}
+
+\end{itemize}
+
+% ============================================================
+%     ANERKENDELSER
+% ============================================================
+
+\section{Anerkendelser}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{1. plads, RoboCup-turneringen} -- Aalborg Universitet (2020). Udviklede navigations- og reguleringsalgoritmer til en mobil robot.}
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}

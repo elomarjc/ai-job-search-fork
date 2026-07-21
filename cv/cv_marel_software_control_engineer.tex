@@ -1,0 +1,167 @@
+%% CV for JBT Marel - Software Control Engineer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med speciale i reguleringsteknik, indlejret software og realtidssystemer. Erfaren med design af attitude-regulatorer, Kalman-filtrering og kollisionsforebyggende styresystemer til mobile robotter. En metodisk og samarbejdsorienteret ingeniør uddannet i problembaseret læring (PBL), klar til at udvikle, teste og idriftsætte robust PLC- og HMI-software til Prepared Foods-systemer.}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Reguleringsteknik \& Simulering}: Regulator-design, LQR, robust regulering, systemidentifikation, MATLAB og Simulink.
+
+\item \textbf{Indlejrede systemer \& C/C++}: Real-time firmware-udvikling (C/C++), Cypress PSoC, microcontrollers, sensorintegration (I2C, IMU) og CNC-forarbejdning.
+
+\item \textbf{Industriel Automation \& Protokoller}: Akademisk erfaring med PLC-strukturer, ladder og struktureret tekst, samt industrielle bus-systemer.
+
+\item \textbf{Signalbehandling \& Dataanalyse}: Adaptive støjfiltreringsalgoritmer (LMS, RLS), maskinlæring, stokastiske systemer og Python-dataanalyse.
+
+\item \textbf{Test \& Verifikation}: Systemkalibrering, software-in-the-loop (SIL) simulering, QA-validering og fejlsøgning.
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og implementerede signalbehandlingsalgoritmer i Python til støjreduktion i smarte stetoskoper.
+    \item Udarbejdede og testede LMS/RLS adaptive filtre og FastICA-modeller i tæt samarbejde med internationale teams.
+    \item Dokumenterede systemkrav og testprocedurer i overensstemmelse med standarder for medicinsk software.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Moderniserede WordPress-arkitekturen for at forbedre server-side ydeevne og indlæsningstider.
+    \item Løste system-ydeevne flaskehalse og konfigurerede plugin-integrationer.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Styrede sortering og registrering af forsendelser under tidspres i et travlt logistikmiljø.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Danmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Fokuseret på maskinlæring, signalbehandling, stokastiske systemer og test af reguleringssløjfer.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik. Afsluttede projekter omfattede:
+\begin{itemize}
+    \item \textbf{Bachelorprojekt}: Modelopbygning og regulering af en traverskran (Gantry Crane).
+    \item \textbf{5. semester}: Kollisionsforebyggende navigationssystem til mobile robotter (MiR200) baseret på UWB og regressionsalgoritmer.
+    \item \textbf{4. semester}: Indlejret faldsikringssystem til smartphones på Cypress PSoC i C.
+\end{itemize}
+}}
+
+\end{itemize}
+
+% ============================================================
+%     UDVALGTE PROJEKTER
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{AAUSAT6 CubeSat ADCS Design (Universitetsprojekt)}: Udviklede simulationsmodeller og attitude-regulatorer til CubeSat-stabilisering i rummet ved hjælp af LQR, Kalman-filtrering og robuste B-dot algoritmer i MATLAB og Simulink.}
+
+\item{\textbf{Center of Mass Kalibrering (Universitetsprojekt, 3-DoF Simulator)}: Udviklede estimationsalgoritmer til kalibrering af Center of Mass ved brug af kinematik og Kalman-filtrering. Stod for det fysiske design, herunder printudlægning i Altium og CNC-fræsning.}
+
+\item{\textbf{Regulering af Traverskran (Bachelorprojekt, Universitetsprojekt)}: Udviklede en matematisk model samt regulator-loops (PID/LQR) for automatiseret positionering og svingningsdæmpning af en traverskran (Gantry Crane) med feedbacksløjfer.}
+
+\item{\textbf{Kollisionsforebyggelse til Mobile Robotter (Universitetsprojekt, 5. sem.)}: Designede et autonomt styrings- og kollisionsforebyggende navigationssystem til MiR200-robotter baseret på UWB-data og regressionsalgoritmer.}
+
+\end{itemize}
+
+% ============================================================
+%     ANERKENDELSER
+% ============================================================
+
+\section{Anerkendelser}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{1. plads, RoboCup-turneringen} -- Aalborg Universitet (2020). Vandt turneringen ved at programmere optimerede navigationsalgoritmer til en mobil robot.}
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{Referencer}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}

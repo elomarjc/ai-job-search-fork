@@ -1,0 +1,144 @@
+%% CV for Aalborg Universitet - Ph.d.-stipendiat (Kommunikations- og radarsystemer til UAS)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Denmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE
+% ============================================================
+
+\vspace{6pt}
+\small{Civilingeniør (MSc) i Elektroniske Systemer fra Aalborg Universitet med speciale i signalbehandling, stokastiske systemer, adaptiv filtrering og algoritmeudvikling i Python og MATLAB. Erfaring med stokastisk estimering, sensorintegration og hardware-software co-design samt tværfagligt projektsamarbejde. Motiveret for ph.d.-forskning inden for robuste mesh-kommunikations- og radarsystemer til droner i GNSS-benægtede miljøer ved Institut for Elektroniske Systemer (AAU).}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Trådløs Kommunikation \& Netværk}: Trådløse kanalmodeller (small- \& large-scale), PHY-evaluering, MIMO, Random/Multiple Access, Markov Chains, Discrete Event Simulation (TrueTime), CAN-busser samt Network Calculus.
+
+\item \textbf{Signalbehandling \& Stokastik}: Adaptiv filtrering (LMS, NLMS, RLS), FastICA, stokastisk estimering, Kalman-filtrering, linkbudgetter og kanalmodellering.
+
+\item \textbf{Algoritmeudvikling \& Simulering}: Python (NumPy, SciPy, Matplotlib), MATLAB / Simulink, C/C++, stokastisk modellering, dataset-generering og systememulering (Sionna).
+
+\item \textbf{Embedded \& Reeltidssystemer}: Mikrocontroller-programmering (Cypress PSoC i C), I2C/IMU sensorintegration, reeltidsfiltrering og hardware-in-the-loop test.
+
+\item \textbf{Systemdesign \& Robotik}: B-dot og LQR regulering, Ultra-Wideband (UWB) positionsbestemmelse, kollisionsforebyggelse samt Altium PCB \& Onshape konstruktion.
+
+\item \textbf{Samarbejde \& Formidling}: Problembaseret læring (PBL), tværfagligt projektsamarbejde med eksterne forsknings- og industripartnere, teknisk dokumentation.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+
+\cventry{Sep 2023--Jun 2025}{MSC i Elektroniske Systemer}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Kandidatspeciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Reeltids-signalbehandling, adaptiv filtrering og stokastisk estimering i Python og MATLAB.
+}
+
+\vspace{3pt}
+
+\cventry{Sep 2020--Aug 2023}{BSc i Elektronik og IT}{Aalborg Universitet}{Aalborg, Danmark}{}{
+Specialisering i reguleringsteknik, digitale systemer og embedded C-programmering (Cypress PSoC, satellitsimulator CoM, MiR200 robotstyring).
+}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktikant)}{Ai Health Highway}{Aalborg, Danmark / Remote}{}{
+\begin{itemize}
+    \item Udviklede og validerede signalbehandlings- og filtreringsalgoritmer i Python til støjreduktion i krævende miljøer.
+    \item Implementerede adaptiv filtrering (LMS, NLMS, RLS) og FastICA til adskillelse af komplekse akustiske signaler.
+    \item Samarbejdede med internationale forskningsteams om algoritmeoptimering og teknisk dokumentation.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jan 2026--Nuværende}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Vedligeholdelse af organisatorisk web- og databaseinfrastruktur (WordPress, MySQL) med fokus på oppetid og ydeevne.
+\end{itemize}}
+
+\vspace{3pt}
+
+\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{
+\begin{itemize}
+    \item Håndtering af komplekse logistikarbejdsgange og dataopgørelser under højt arbejdstempo.
+\end{itemize}}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{AAUSAT6 ADCS Satellitregulering (AAU)}: Udvikling af B-dot detumbling-algoritmer og Kalman-filtrering i MATLAB/Simulink til positions- og orienteringsbestemmelse på CubeSat-platforme.}
+
+\item{\textbf{UWB Robot Kollisionsforebyggelse (AAU)}: Design af prædiktivt navigations- og kollisionsforebyggelsessystem for MiR200 mobil robot baseret på Ultra-Wideband (UWB) sporing og regressionsmodeller.}
+
+\item{\textbf{Center of Mass Kalibrering (AAU)}: Algoritmer til estimering af tyngdepunkt for 3-DoF satellitsimulator ved hjælp af kinematik og Kalman-filtrering i MATLAB.}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (Modersmål), Engelsk (Flydende i skrift og tale).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{Referencer}
+\vspace{1pt}
+\begin{itemize}
+\item Kan oplyses efter anmodning.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,151 @@
+%% CV for Norlys Energy Trading - Software Developer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med speciale i softwareudvikling, distribuerede systemer og signalbehandling. Erfaren med C\#, SQL-databaser og Flutter-appudvikling samt et stærkt teoretisk og praktisk fundament inden for design af hændelsesstyret logik. En samarbejdsorienteret udvikler trænet i problembaseret læring (PBL), klar til at udvikle og optimere pålidelige cloud-baserede softwaretjenester i jeres Commercial Solutions Development-team.}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Softwareudvikling \& API'er}: C\#, .NET Core, Python, JavaScript, TypeScript, Node.js, REST API'er, JSON.
+
+\item \textbf{Databaser \& Integration}: PostgreSQL, MySQL, SQLite, Supabase, SQL-forespørgsler og relationel schema-optimering.
+
+\item \textbf{Distribuerede \& Hændelsesstyrede systemer}: Trænet i stokastiske systemer, sensorkommunikation, hændelsessporing og integration via REST.
+
+\item \textbf{Mobil- \& Webudvikling}: Flutter, Dart, WordPress-plugin-konfiguration og web-optimering.
+
+\item \textbf{Ingeniørværktøjer}: git, GitHub Actions (CI/CD-workflows), Scrum-metodologi, Trello og teams-baseret projektstyring.
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Moderniserede WordPress-arkitekturen for at forbedre server-side ydeevne og indlæsningstider.
+    \item Konfigurerede plugin-integrationer og optimerede databasedesign for bedre datakonsistens.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og implementerede signalbehandlingsalgoritmer i Python til støjreduktion i smarte stetoskoper.
+    \item Udarbejdede og testede LMS/RLS adaptive filtre og FastICA-modeller i tæt samarbejde med internationale teams.
+    \item Dokumenterede systemkrav og testprocedurer i overensstemmelse med standarder for medicinsk software.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Styrede sortering og registrering af forsendelser under tidspres i et travlt logistikmiljø.
+    \item Automatiserede regnearksarbejdsgange for at optimere lagerstyring og teamkoordinering.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Danmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Fokus på maskinlæring, signalbehandling, stokastiske systemer og distribueret software.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik. Projekter omfattede bl.a. kollisionsforebyggende navigationssystemer til mobile robotter (MiR200) baseret på UWB og regressionsalgoritmer.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     UDVALGTE PROJEKTER
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Udviklet med Flutter/Dart og en Supabase PostgreSQL-backend. Implementerede synkronisering i realtid og komplekse SQL-forespørgsler samt API-integrationer.}
+
+\item{\textbf{Kollisionsforebyggelse til Mobile Robotter (Universitetsprojekt, 5. sem.)}: Udviklede et prædiktivt navigations- og kollisionsforebyggelsessystem til MiR200 mobile robotplatforme i realtid baseret på regressionsalgoritmer og UWB tracking-data.}
+
+\item{\textbf{Embedded Faldsikringssystem (Universitetsprojekt, 4. sem.)}: Udviklede software til faldregistrering på en Cypress PSoC-mikrocontroller i C. Implementerede I2C-kommunikation, sensorfusion og overførsel af data.}
+
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{Referencer}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}

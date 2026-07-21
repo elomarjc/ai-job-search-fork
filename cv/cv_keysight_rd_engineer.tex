@@ -1,0 +1,149 @@
+%% CV for Keysight Technologies - R&D Researcher / Engineer
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Denmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE
+% ============================================================
+
+\vspace{6pt}
+\small{MSc Graduate in Electronic Systems from Aalborg University specializing in signal processing, C++/Python software development, and real-time algorithm implementation. Experienced in designing noise cancellation filters, executing automated test scripts, post-processing measurement datasets, and leveraging AI-assisted software workflows with Claude Code. Motivated to contribute to cutting-edge wireless test and measurement software at Keysight Technologies in NOVI, Aalborg.}
+
+% ============================================================
+%     TECHNICAL SKILLS
+% ============================================================
+
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Software Development \& Scripting}: C/C++, Python (NumPy, SciPy, Pandas, Matplotlib), C\#, MATLAB, Git, Linux.
+
+\item \textbf{Signal Processing \& Data Analysis}: Adaptive filtering (LMS, NLMS, RLS), FastICA, stochastic signal modeling, automated test post-processing, dataset generation.
+
+\item \textbf{Embedded \& Real-Time Systems}: Cypress PSoC microcontrollers, I2C/SPI sensor integration, RTOS concepts, system modeling, hardware-software co-design.
+
+\item \textbf{AI Tooling \& Methodologies}: Agentic AI workflows with Claude Code for rapid test automation, code documentation, and refactoring. Problem-Based Learning (PBL) team collaboration.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2026--Present}{IT \& Web Developer (Volunteer)}{Dawah Danmark}{Aalborg, Denmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed and maintained organizational backend infrastructure and MySQL databases.
+    \item Streamlined data integration pipelines and improved platform performance and stability.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Internship)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Engineered and validated signal processing algorithms in Python for medical-grade electronic stethoscopes.
+    \item Implemented real-time noise reduction filters and FastICA algorithms to isolate diagnostic audio signals.
+    \item Conducted systematic data analysis and test execution in compliance with diagnostic standards.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Logistics Specialist}{Lyn Express}{Aalborg, Denmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Managed inventory workflows, order processing, and time-critical logistics under high pressure.
+    \item Built automated Excel macros and data management tools to streamline daily operations.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{MSc in Engineering (Electronic Systems)}{Aalborg University}{Aalborg, Denmark}{}{\vspace{1pt}
+Thesis: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Focus on real-time signal processing, stochastic estimation, and Python/MATLAB algorithm pipelines.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{BSc in Engineering (Electronics and IT)}{Aalborg University}{Aalborg, Denmark}{}{\vspace{1pt}
+Specialization in control theory, digital systems, and embedded C programming. Projects included Cypress PSoC fall-detection systems and model gantry crane control.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Adaptive Noise Cancellation Filter (Speciale, Universitetsprojekt)}: Designed an adaptive noise reduction pipeline in Python for diagnostic signals, processing time-series measurement data and evaluating SNR improvements.}
+
+\item{\textbf{Embedded Fall-Detection System (Universitetsprojekt)}: Programmed a real-time fall-detection algorithm on a Cypress PSoC microcontroller in C, establishing sensor I2C communication and interrupt handlers.}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Developed a full-stack mobile application using Flutter and Dart with a Supabase PostgreSQL backend, REST APIs, and database sync.}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English (Fluent), Danish (Native).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item Available upon request.
+\end{itemize}
+
+\end{document}

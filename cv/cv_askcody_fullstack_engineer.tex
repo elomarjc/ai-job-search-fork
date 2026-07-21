@@ -1,0 +1,150 @@
+%% CV for AskCody - Full-Stack Software Engineer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med stærke fuldstændige udviklingskompetencer inden for C\#, .NET Core og relationelle databaser. Erfaren i at opbygge cross-platform løsninger med Flutter, integrere REST-API'er og anvende moderne AI-first softwareudvikling (prompts, validering og parprogrammering med kodningsagenter). En nysgerrig, PBL-trænet holdspiller, der er klar to levere værdi på tværs af hele jeres R\&D-infrastruktur.}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{C\# \& .NET Udvikling}: C\#, .NET Core, API-design, objektorienteret programmering, objekt-relationel mapping (Entity Framework).
+
+\item \textbf{Full-Stack \& Frontend}: Flutter, Dart, JavaScript, TypeScript, Node.js, HTML/CSS samt kendskab til React og GraphQL-kald.
+
+\item \textbf{AI-First Software Engineering}: Erfaren i at udnytte AI-kodningsagenter (f.eks. Antigravity) aktivt i den daglige udvikling til hurtig prototypering, testdækning og debugging.
+
+\item \textbf{Databaser \& DevOps}: PostgreSQL, SQLite, MySQL, Supabase, samt versionsstyring i Git og CI/CD processer (GitHub Actions).
+
+\item \textbf{Projektstyring \& Kommunikation}: Trænet i agilt teamsamarbejde (Scrum) under AAU's problembaserede læringsmodel (PBL).
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Vedligeholdt, moderniserede og overvågede organisationens WordPress-platform.
+    \item Optimerede databasearkitekturen for at øge load-hastighed og brugertilfredshed.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede signalfiltreringsalgoritmer i Python til stetoskoper.
+    \item Samarbejdede på tværs af globale teams om at validere og teste softwareløsninger.
+    \item Sikrede softwareoverensstemmelse med medicinske kvalitetsstandarder via grundig dokumentation.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Håndterede varelogistik og lagerstyringssystemer i et højeffektivt arbejdsmiljø.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Denmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Udvikling og test af filtreringsarkitekturer til realtidsplatforme.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik. Bachelorprojektet omhandlede autonom regulering af traverskran, og vi designede indlejret faldsikringssoftware på PSoC i C.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     UDVALGTE PROJEKTER
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Egenudviklet spil i Flutter/Dart. Oprettede en Supabase PostgreSQL-database til håndtering af multiplayer-data via REST-API'er og realtidssynkronisering.}
+
+\item{\textbf{Adaptive Noise Cancellation (Speciale, Universitetsprojekt)}: Udviklede en signalbehandlings- og filtreringspipeline i Python til medicinske IoT-stetoskoper. Implementerede LMS/RLS-algoritmer til støjreduktion i realtid.}
+
+\item{\textbf{Embedded Faldsikringssystem (Universitetsprojekt, 4. sem.)}: Designede og programmerede et realtids fall-detection system på en Cypress PSoC mikrocontroller i C. Etablerede sensorintegration via I2C.}
+
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}

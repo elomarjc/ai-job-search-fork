@@ -1,0 +1,151 @@
+%% CV for Alfa Laval - Backend Software Engineer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med stærke kompetencer inden for C\#, .NET Core og relationelle databaser. Erfaren i at opbygge robuste backend-løsninger, optimere SQL-forespørgsler og strukturere versionsstyring med Git. Klar til at tage ejerskab over interne værktøjer og understøtte jeres digitale transformation i spændingsfeltet mellem klassisk softwareudvikling (IT) og industriel automation (OT).}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend-udvikling \& C\#}: C\#, .NET Core, objektorienteret programmering (OOP), designmønstre (Dependency Injection, Singletons), REST API'er.
+
+\item \textbf{Databaser \& SQL}: MSSQL, PostgreSQL, SQLite, database-migrationer, optimering af komplekse forespørgsler samt datamodellering.
+
+\item \textbf{Automatisering \& OT-forståelse}: Programmering af indlejrede systemer i C/C++, PLC-forståelse, samt signalbehandling og reguleringsteknik.
+
+\item \textbf{Versionsstyring \& CI/CD}: Erfaren med Git, GitHub Actions, samt akademisk kendskab til Azure DevOps og agile processer (Scrum).
+
+\item \textbf{Tværfagligt samarbejde}: Uddannet via problembaseret læring (PBL) med fokus på tæt integration mellem softwarekrav og fysisk systemdesign.
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og vedligeholdt interne systemer og databaser på WordPress-platformen.
+    \item Optimerede database-arkitekturen, hvilket sikrede øget stabilitet og hurtigere indlæsningstider.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og testede algoritmer i Python til smart stethoskoper (AiSteth).
+    \item Sikrede signalintegritet og dokumenterede kode i overensstemmelse med medicinske kvalitetsstandarder.
+    \item Samarbejdede om integration af softwaren med indlejret hardware.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Styrede sortering og logistik af forsendelser under tidspres.
+    \item Automatiserede administrative processer i Excel for at øge effektiviteten.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Denmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Integrerede signalbehandling på realtidsplatforme.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik og indlejrede systemer. Projekter inkluderede faldsikringssystemer på Cypress PSoC (C) og robotstyring.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     UDVALGTE PROJEKTER
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\textbf{Grow a Fish (Fritidsprojekt)}: Egenudviklet spil i Flutter/Dart. Implementerede en Supabase PostgreSQL-backend, REST-API'er, relationelt databasedesign og realtidssynkronisering.}
+
+\item{\textbf{Embedded Faldsikringssystem (Universitetsprojekt, 4. sem.)}: Designede og programmerede et realtids fall-detection system på en Cypress PSoC mikrocontroller i C. Etablerede I2C-sensorkommunikation.}
+
+\item{\textbf{Regulering af Traverskran (Bachelorprojekt, Universitetsprojekt)}: Udviklede en automatiseret model- og reguleringsarkitektur (PID/LQR) for traverskranstyring med feedbacksløjfer og systemidentifikation.}
+
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}

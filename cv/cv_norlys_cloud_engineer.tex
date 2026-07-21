@@ -1,0 +1,145 @@
+%% CV for Norlys - Cloud Engineer (Dansk)
+%% Compiled with: lualatex
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Jacob El-Omar - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+
+\name{Jacob}{El-Omar}
+\address{Aalborg, Danmark}{}{}
+\phone[mobile]{+45 53 35 27 82}
+\email{elomarjc@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/jacob-el-omar}{LinkedIn} \textbullet{} \href{https://github.com/elomarjc}{GitHub}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFIL
+% ============================================================
+
+\vspace{6pt}
+\small{Nyuddannet civilingeniør (cand.polyt.) i elektroniske systemer fra Aalborg Universitet med stærke kompetencer inden for programmering (Python og C\#) og distribuerede logikker. Erfaren i at opbygge backend-API'er, databasemodeller samt automatisere deployment-processer. En nysgerrig og pragmatisk holdspiller, der motiveres af at drifte og videreudvikle platformsinfrastruktur i jeres Cloud Development-team.}
+
+% ============================================================
+%     FAGLIGE KOMPETENCER
+% ============================================================
+
+\section{Faglige Kompetencer}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Programmering \& Scripting}: Python, C\#, .NET Core, JavaScript, TypeScript, Node.js, bash scripting.
+
+\item \textbf{Infrastruktur \& Platformsforståelse}: Erfaring med CI/CD processer (GitHub Actions), REST-API'er, datamodellering, og interesse for Infrastructure-as-Code (Terraform).
+
+\item \textbf{Databaser \& Systemintegration}: SQL (PostgreSQL, SQLite, MySQL, Supabase), hændelsesbaseret software og API-integrationer.
+
+\item \textbf{Overvågning \& Fejlsøgning}: Systematiske testmetoder, datavisualisering, samt logs- og fejlsøgning på servere og databaser.
+
+\item \textbf{Samarbejde \& Læring}: Uddannet efter AAU's problembaserede læringsmodel (PBL), som sikrer stærke formidlings- og teamwork-kompetencer.
+
+\end{itemize}
+
+% ============================================================
+%     ERHVERVSERFARING
+% ============================================================
+
+\section{Erhvervserfaring}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{Jan 2026--Nu}{IT- \& Webudvikler (Frivillig)}{Dawah Danmark}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Vedligeholdt og driftede serverplatformen for organisationens hjemmeside.
+    \item Konfigurerede plug-ins, overvågede systemstabilitet og løste ydeevneproblemer.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2024--Jun 2025}{AI/ML Engineer (Praktik)}{Ai Health Highway}{Remote}{}{\vspace{1pt}
+\begin{itemize}
+    \item Udviklede og testede realtids-signalfiltrering i Python til medicinske IoT-enheder.
+    \item Samarbejdede om hardware-software integrationskrav med globale forskerhold.
+    \item Udarbejdede teknisk dokumentation og testcases for at sikre softwarens overholdelse af standarder.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{Jun 2023--Aug 2024}{Lager- og Logistikmedarbejder}{Lyn Express}{Aalborg, Danmark}{}{\vspace{1pt}
+\begin{itemize}
+    \item Koordinerede varemodtagelse, sortering og databaseopdateringer under højt tidspres.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     UDDANNELSE
+% ============================================================
+
+\section{Uddannelse}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{Sep 2023--Jun 2025}{Civilingeniør, cand.polyt. (Elektroniske Systemer)}{Aalborg Universitet}{Aalborg, Denmark}{}{\vspace{1pt}
+Speciale: ``Adaptive Noise Cancellation For Electronic Stethoscopes.'' Fokuseret på støjfiltrering, signalbehandling og distribueret software.
+}}
+
+\vspace{3pt}
+
+\item{\cventry{Sep 2020--Aug 2023}{Bachelor i teknisk videnskab (Elektronik og IT)}{Aalborg University}{Aalborg, Danmark}{}{\vspace{1pt}
+Specialisering i reguleringsteknik. Projekter indeholdt automatisk faldsikringsprogrammering i C på Cypress PSoC og regulering til robotsystemer.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     PROJEKTER (UDVALGTE)
+% ============================================================
+
+\section{Udvalgte Projekter}
+\vspace{1pt}
+\begin{itemize}
+\item{\textbf{Grow a Fish}: Udvikling af et fuldt spil i Flutter/Dart. Oprettede en Supabase PostgreSQL-database til håndtering af multiplayer-data via REST-API.}
+\item{\textbf{AAUSAT6 ADCS Design}: Udviklede simulations- og styringsmoduler for satellitstabilisering i MATLAB/Simulink.}
+\end{itemize}
+
+% ============================================================
+%     SPROG
+% ============================================================
+
+\section{Sprog}
+\vspace{1pt}
+\begin{itemize}
+\item Dansk (modersmål), Engelsk (flydende).
+\end{itemize}
+
+% ============================================================
+%     REFERENCER
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Afleveres efter aftale.}
+\end{itemize}
+
+\end{document}
